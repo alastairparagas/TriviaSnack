@@ -101,17 +101,6 @@ var wolframAlpha =
             servingSize: "3 oz (85g)",
             image: "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2009/5/27/0/0125629_03_chicken-in-skillet_s4x3.jpg.rend.sni12col.landscape.jpeg"
         },
-        Strawberry: {
-            calories: 45,
-            fat: 420,
-            cholesterol: 0,
-            sodium: 1,
-            carbohydrate: 11,
-            protein: 938,
-            sugar: 7,
-            servingSize: "140g", 
-            image: "https://upload.wikimedia.org/wikipedia/commons/2/29/PerfectStrawberry.jpg"
-        },
         "Corn on the cob": {
             calories: 155,
             fat: 3,
