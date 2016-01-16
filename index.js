@@ -45,6 +45,8 @@ var express = require('express'),
     playersList = {};
 
 
+NutriGuessApp.use(express.static('web'));
+
 
 /**
 * CORS header
@@ -163,7 +165,7 @@ socketIo.on('connection', function (socket) {
             }
             playersList[invitedPlayer].invitations.push(groupNumber);
 
-            socket.emit('groupInviteNotify', {
+            socket.broadcast.emit('groupInviteNotify', {
                 playerName: invitedPlayer,
                 playerFrom: playerName,
                 invitations: playersList[invitedPlayer].invitations
