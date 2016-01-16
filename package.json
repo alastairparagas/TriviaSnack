@@ -1,0 +1,32 @@
+{
+  "name": "triviasnack",
+  "version": "1.0.0",
+  "description": "Backend for TriviaSnack",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-env-file": "^0.1.8",
+    "socket.io": "^1.4.4",
+    "wolfram-alpha": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alastairparagas/TriviaSnack-Backend.git"
+  },
+  "keywords": [
+    "nutrition",
+    "guess",
+    "prediction",
+    "nutrients"
+  ],
+  "author": "Alastair Paragas <alastairparagas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alastairparagas/TriviaSnack-Backend/issues"
+  },
+  "homepage": "https://github.com/alastairparagas/TriviaSnack-Backend#readme"
+}
