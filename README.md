@@ -9,8 +9,8 @@
 * Google Custom Search API
 
 ## App Screenshots
-![Login](https://github.com/alastairparagas/TriviaSnack/master/appScreenshots/screenshot2.png)
-![Game Wheel](https://github.com/alastairparagas/TriviaSnack/master/appScreenshots/screenshot1.png)
+![Login](https://raw.githubusercontent.com/alastairparagas/TriviaSnack/master/appScreenshots/screenshot2.png)
+![Game Wheel](https://raw.githubusercontent.com/alastairparagas/TriviaSnack/master/appScreenshots/screenshot1.png)
 
 ## Before Starting Development
 Make sure to do an `npm install`, lower down your Firewall so that Socket.IO can broadcast to your entire local network and change the binding IP address of the client app (situated at the `web/` folder) to whatever your computer's local IP address is.
