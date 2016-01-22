@@ -1,6 +1,10 @@
 var wolframAlpha = 
     require('wolfram-alpha').createClient(process.env.WOLFRAM_APPID),
     
+    /**
+    * Cached Nutrition Data because Wolfram is so freaking slow.
+    * Yo Wolfram, how about you invest on some servers for Wolfram Alpha?
+    */
     cachedNutritionInfo = {
         Burger: {
             calories: 421,
@@ -224,7 +228,6 @@ function parseWolframNutritionData(wolframResult) {
 function getInfo(foodName) {
     
     function promiseExecutor(resolve, reject) {
-        console.log(foodName);
         if (foodName in cachedNutritionInfo) {
             resolve(cachedNutritionInfo[foodName]);
             return;
